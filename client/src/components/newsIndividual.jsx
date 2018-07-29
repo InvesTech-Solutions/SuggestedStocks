@@ -5,6 +5,7 @@ var NewsIndividual = (props) => {
 
     return  (
         <div id='mainNews'>
+        
             <img src={props.data.img} />
             <div id='newsInfoContainer'>
                 <div id='Newsheaders'>
