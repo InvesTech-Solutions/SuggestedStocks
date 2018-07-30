@@ -44,9 +44,15 @@ class App extends React.Component {
 
         return (
         <div id='mainContainer'>
-            <div id='newslist'>
+            <section id='newslist'>
+                <header id='headerNews'>
+                    <div id='headerNewsWrap'>
+                        <h2 id='newsHeader'>News</h2>
+                        <a id='showMoreNews' href='#' target='_blank'> Show More</a>
+                    </div>
+                </header>
                 <NewsList />
-            </div>
+            </section>
         <section id='suggestedSection'> 
             <header id='headerSuggested'>
               <div id='headerWrap'>
