@@ -20,18 +20,8 @@ class NewsList extends React.Component {
 
     render() {
     return (
-        <div>
-        <div id='newsMainHead'>
-        <h2><strong> News </strong></h2>
-        <div id='showMore'>
-        <h6> Show More </h6>
-        <a href='#' />
-        </div>
-        </div>
         <div id='theNewz'>
             <Newz props={this.state.data} />
-        <a href='https://www.google.com'/>
-        </div>
         </div>
     )
     }
